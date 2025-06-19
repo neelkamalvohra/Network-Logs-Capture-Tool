@@ -28,6 +28,36 @@ This app is designed for support engineers who need to collect network diagnosti
 
 1. Download the APK from releases
 2. Install on your Android device
+
+## Development
+
+### Prerequisites
+
+- Flutter 3.x
+- Dart 3.x
+- Android Studio / VS Code with Flutter extensions
+
+### Setup
+
+1. Clone this repository:
+```
+git clone https://github.com/neelkamalvohra/Network-Logs-Capture-Tool.git
+```
+
+2. Navigate to the project directory:
+```
+cd Network-Logs-Capture-Tool
+```
+
+3. Install dependencies:
+```
+flutter pub get
+```
+
+4. Run the application:
+```
+flutter run
+```
 3. Grant the required network permissions
 
 Alternatively, build from source:
