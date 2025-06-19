@@ -37,6 +37,13 @@ This app is designed for support engineers who need to collect network diagnosti
 - Dart 3.x
 - Android Studio / VS Code with Flutter extensions
 
+### Branching Strategy
+
+This repository follows a branching strategy:
+
+- `master`: Production-ready code only. Stable releases are merged here.
+- `development`: Active development branch. All new features and fixes go here first.
+
 ### Setup
 
 1. Clone this repository:
@@ -49,12 +56,17 @@ git clone https://github.com/neelkamalvohra/Network-Logs-Capture-Tool.git
 cd Network-Logs-Capture-Tool
 ```
 
-3. Install dependencies:
+3. Switch to the development branch:
+```
+git checkout development
+```
+
+4. Install dependencies:
 ```
 flutter pub get
 ```
 
-4. Run the application:
+5. Run the application:
 ```
 flutter run
 ```
