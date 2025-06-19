@@ -1,0 +1,347 @@
+Getting public IP addresses...
+Public IPv4: 49.36.105.228
+Public IPv6: 2405:201:0:109d:1976:261a:66ca:195f
+
+Performing DNS lookups for Microsoft.com
+
+DNS Server: 8.8.8.8
+DNS Lookup for Microsoft.com using DNS server 8.8.8.8
+Resolving Microsoft.com...
+Note: Using system DNS (custom DNS server 8.8.8.8 can't be used on Android)
+Found 6 addresses:
+Address: 2603:1020:201:10::10f
+Address: 2603:1010:3:3::5b
+Address: 2603:1030:b:3::152
+Address: 2603:1030:20e:3::23c
+Address: 2603:1030:c02:8::14
+Address: 13.107.253.48
+
+Additional DNS info from Google DNS:
+IP: 13.107.253.48 (TTL: 1248)
+
+DNS Server: 8.8.4.4
+DNS Lookup for Microsoft.com using DNS server 8.8.4.4
+Resolving Microsoft.com...
+Note: Using system DNS (custom DNS server 8.8.4.4 can't be used on Android)
+Found 6 addresses:
+Address: 2603:1020:201:10::10f
+Address: 2603:1010:3:3::5b
+Address: 2603:1030:b:3::152
+Address: 2603:1030:20e:3::23c
+Address: 2603:1030:c02:8::14
+Address: 13.107.253.48
+
+Additional DNS info from Google DNS:
+IP: 13.107.253.48 (TTL: 1248)
+
+DNS Server: 1.1.1.1
+DNS Lookup for Microsoft.com using DNS server 1.1.1.1
+Resolving Microsoft.com...
+Note: Using system DNS (custom DNS server 1.1.1.1 can't be used on Android)
+Found 6 addresses:
+Address: 2603:1020:201:10::10f
+Address: 2603:1010:3:3::5b
+Address: 2603:1030:b:3::152
+Address: 2603:1030:20e:3::23c
+Address: 2603:1030:c02:8::14
+Address: 13.107.253.48
+
+Additional DNS info from Google DNS:
+IP: 13.107.246.48 (TTL: 2312)
+
+DNS Server: 9.9.9.9
+DNS Lookup for Microsoft.com using DNS server 9.9.9.9
+Resolving Microsoft.com...
+Note: Using system DNS (custom DNS server 9.9.9.9 can't be used on Android)
+Found 6 addresses:
+Address: 2603:1020:201:10::10f
+Address: 2603:1010:3:3::5b
+Address: 2603:1030:b:3::152
+Address: 2603:1030:20e:3::23c
+Address: 2603:1030:c02:8::14
+Address: 13.107.253.48
+
+Additional DNS info from Google DNS:
+IP: 13.107.246.68 (TTL: 2510)
+
+Performing traceroute to unique IPs...
+
+Traceroute to 2603:1020:201:10::10f:
+Traceroute to 2603:1020:201:10::10f
+Note: Full traceroute functionality is limited on Android.
+Simulating traceroute with ping tests at increasing TTL values...
+
+Target IP address: 2603:1020:201:10::10f
+
+Hop #1:
+  Simulated router 10.20.30.40 (10ms)
+Hop #2:
+  Simulated router 20.40.60.80 (20ms)
+Hop #3:
+  Simulated router 30.60.90.120 (30ms)
+Hop #4:
+  Simulated router 40.80.120.160 (40ms)
+Hop #5:
+  Simulated router 50.100.150.200 (50ms)
+Hop #6:
+  Simulated router 60.120.180.240 (60ms)
+Hop #7:
+  Simulated router 70.140.210.280 (70ms)
+Hop #8:
+  Simulated router 80.160.240.320 (80ms)
+Hop #9:
+  Simulated router 90.180.270.360 (90ms)
+Hop #10:
+  Target reached: 2603:1020:201:10::10f
+
+Trace complete. Note: This is a simulated trace on Android.
+
+Traceroute to 2603:1010:3:3::5b:
+Traceroute to 2603:1010:3:3::5b
+Note: Full traceroute functionality is limited on Android.
+Simulating traceroute with ping tests at increasing TTL values...
+
+Target IP address: 2603:1010:3:3::5b
+
+Hop #1:
+  Simulated router 10.20.30.40 (10ms)
+Hop #2:
+  Simulated router 20.40.60.80 (20ms)
+Hop #3:
+  Simulated router 30.60.90.120 (30ms)
+Hop #4:
+  Simulated router 40.80.120.160 (40ms)
+Hop #5:
+  Simulated router 50.100.150.200 (50ms)
+Hop #6:
+  Simulated router 60.120.180.240 (60ms)
+Hop #7:
+  Simulated router 70.140.210.280 (70ms)
+Hop #8:
+  Simulated router 80.160.240.320 (80ms)
+Hop #9:
+  Simulated router 90.180.270.360 (90ms)
+Hop #10:
+  Target reached: 2603:1010:3:3::5b
+
+Trace complete. Note: This is a simulated trace on Android.
+
+Traceroute to 2603:1030:b:3::152:
+Traceroute to 2603:1030:b:3::152
+Note: Full traceroute functionality is limited on Android.
+Simulating traceroute with ping tests at increasing TTL values...
+
+Target IP address: 2603:1030:b:3::152
+
+Hop #1:
+  Simulated router 10.20.30.40 (10ms)
+Hop #2:
+  Simulated router 20.40.60.80 (20ms)
+Hop #3:
+  Simulated router 30.60.90.120 (30ms)
+Hop #4:
+  Simulated router 40.80.120.160 (40ms)
+Hop #5:
+  Simulated router 50.100.150.200 (50ms)
+Hop #6:
+  Simulated router 60.120.180.240 (60ms)
+Hop #7:
+  Simulated router 70.140.210.280 (70ms)
+Hop #8:
+  Simulated router 80.160.240.320 (80ms)
+Hop #9:
+  Simulated router 90.180.270.360 (90ms)
+Hop #10:
+  Target reached: 2603:1030:b:3::152
+
+Trace complete. Note: This is a simulated trace on Android.
+
+Traceroute to 2603:1030:20e:3::23c:
+Traceroute to 2603:1030:20e:3::23c
+Note: Full traceroute functionality is limited on Android.
+Simulating traceroute with ping tests at increasing TTL values...
+
+Target IP address: 2603:1030:20e:3::23c
+
+Hop #1:
+  Simulated router 10.20.30.40 (10ms)
+Hop #2:
+  Simulated router 20.40.60.80 (20ms)
+Hop #3:
+  Simulated router 30.60.90.120 (30ms)
+Hop #4:
+  Simulated router 40.80.120.160 (40ms)
+Hop #5:
+  Simulated router 50.100.150.200 (50ms)
+Hop #6:
+  Simulated router 60.120.180.240 (60ms)
+Hop #7:
+  Simulated router 70.140.210.280 (70ms)
+Hop #8:
+  Simulated router 80.160.240.320 (80ms)
+Hop #9:
+  Simulated router 90.180.270.360 (90ms)
+Hop #10:
+  Target reached: 2603:1030:20e:3::23c
+
+Trace complete. Note: This is a simulated trace on Android.
+
+Traceroute to 2603:1030:c02:8::14:
+Traceroute to 2603:1030:c02:8::14
+Note: Full traceroute functionality is limited on Android.
+Simulating traceroute with ping tests at increasing TTL values...
+
+Target IP address: 2603:1030:c02:8::14
+
+Hop #1:
+  Simulated router 10.20.30.40 (10ms)
+Hop #2:
+  Simulated router 20.40.60.80 (20ms)
+Hop #3:
+  Simulated router 30.60.90.120 (30ms)
+Hop #4:
+  Simulated router 40.80.120.160 (40ms)
+Hop #5:
+  Simulated router 50.100.150.200 (50ms)
+Hop #6:
+  Simulated router 60.120.180.240 (60ms)
+Hop #7:
+  Simulated router 70.140.210.280 (70ms)
+Hop #8:
+  Simulated router 80.160.240.320 (80ms)
+Hop #9:
+  Simulated router 90.180.270.360 (90ms)
+Hop #10:
+  Target reached: 2603:1030:c02:8::14
+
+Trace complete. Note: This is a simulated trace on Android.
+
+Traceroute to 13.107.253.48:
+Traceroute to 13.107.253.48
+Note: Full traceroute functionality is limited on Android.
+Simulating traceroute with ping tests at increasing TTL values...
+
+Target IP address: 13.107.253.48
+
+Hop #1:
+  Simulated router 10.20.30.40 (10ms)
+Hop #2:
+  Simulated router 20.40.60.80 (20ms)
+Hop #3:
+  Simulated router 30.60.90.120 (30ms)
+Hop #4:
+  Simulated router 40.80.120.160 (40ms)
+Hop #5:
+  Simulated router 50.100.150.200 (50ms)
+Hop #6:
+  Simulated router 60.120.180.240 (60ms)
+Hop #7:
+  Simulated router 70.140.210.280 (70ms)
+Hop #8:
+  Simulated router 80.160.240.320 (80ms)
+Hop #9:
+  Simulated router 90.180.270.360 (90ms)
+Hop #10:
+  Target reached: 13.107.253.48
+
+Trace complete. Note: This is a simulated trace on Android.
+
+Traceroute to 13.107.246.48:
+Traceroute to 13.107.246.48
+Note: Full traceroute functionality is limited on Android.
+Simulating traceroute with ping tests at increasing TTL values...
+
+Target IP address: 13.107.246.48
+
+Hop #1:
+  Simulated router 10.20.30.40 (10ms)
+Hop #2:
+  Simulated router 20.40.60.80 (20ms)
+Hop #3:
+  Simulated router 30.60.90.120 (30ms)
+Hop #4:
+  Simulated router 40.80.120.160 (40ms)
+Hop #5:
+  Simulated router 50.100.150.200 (50ms)
+Hop #6:
+  Simulated router 60.120.180.240 (60ms)
+Hop #7:
+  Simulated router 70.140.210.280 (70ms)
+Hop #8:
+  Simulated router 80.160.240.320 (80ms)
+Hop #9:
+  Simulated router 90.180.270.360 (90ms)
+Hop #10:
+  Target reached: 13.107.246.48
+
+Trace complete. Note: This is a simulated trace on Android.
+
+Traceroute to 13.107.246.68:
+Traceroute to 13.107.246.68
+Note: Full traceroute functionality is limited on Android.
+Simulating traceroute with ping tests at increasing TTL values...
+
+Target IP address: 13.107.246.68
+
+Hop #1:
+  Simulated router 10.20.30.40 (10ms)
+Hop #2:
+  Simulated router 20.40.60.80 (20ms)
+Hop #3:
+  Simulated router 30.60.90.120 (30ms)
+Hop #4:
+  Simulated router 40.80.120.160 (40ms)
+Hop #5:
+  Simulated router 50.100.150.200 (50ms)
+Hop #6:
+  Simulated router 60.120.180.240 (60ms)
+Hop #7:
+  Simulated router 70.140.210.280 (70ms)
+Hop #8:
+  Simulated router 80.160.240.320 (80ms)
+Hop #9:
+  Simulated router 90.180.270.360 (90ms)
+Hop #10:
+  Target reached: 13.107.246.68
+
+Trace complete. Note: This is a simulated trace on Android.
+
+Pinging unique IPs...
+
+Ping to 2603:1020:201:10::10f:
+PingError(response:null, error:unknownHost)
+
+Ping to 2603:1010:3:3::5b:
+PingError(response:null, error:unknownHost)
+
+Ping to 2603:1030:b:3::152:
+PingError(response:null, error:unknownHost)
+
+Ping to 2603:1030:20e:3::23c:
+PingError(response:null, error:unknownHost)
+
+Ping to 2603:1030:c02:8::14:
+PingError(response:null, error:unknownHost)
+
+Ping to 13.107.253.48:
+PingResponse(seq:1, ip:13.107.253.48, ttl:43, time:31.7 ms)
+PingResponse(seq:2, ip:13.107.253.48, ttl:43, time:27.2 ms)
+PingResponse(seq:3, ip:13.107.253.48, ttl:43, time:33.7 ms)
+PingResponse(seq:4, ip:13.107.253.48, ttl:43, time:36.6 ms)
+PingSummary(transmitted:4, received:4), time: 3005 ms
+
+Ping to 13.107.246.48:
+PingResponse(seq:1, ip:13.107.246.48, ttl:46, time:14.3 ms)
+PingResponse(seq:2, ip:13.107.246.48, ttl:46, time:9.02 ms)
+PingResponse(seq:3, ip:13.107.246.48, ttl:46, time:19.7 ms)
+PingResponse(seq:4, ip:13.107.246.48, ttl:46, time:14.2 ms)
+PingSummary(transmitted:4, received:4), time: 3005 ms
+
+Ping to 13.107.246.68:
+PingResponse(seq:1, ip:13.107.246.68, ttl:46, time:8.67 ms)
+PingResponse(seq:2, ip:13.107.246.68, ttl:46, time:14.6 ms)
+PingResponse(seq:3, ip:13.107.246.68, ttl:46, time:19.9 ms)
+PingResponse(seq:4, ip:13.107.246.68, ttl:46, time:10.1 ms)
+PingSummary(transmitted:4, received:4), time: 3004 ms
+
+Capture completed!
