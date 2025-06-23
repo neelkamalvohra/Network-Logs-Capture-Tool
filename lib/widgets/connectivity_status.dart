@@ -28,26 +28,15 @@ class ConnectivityStatus extends StatelessWidget {
             isConnected ? Icons.wifi : Icons.wifi_off,
             color: isConnected ? Colors.green : Colors.red,
           ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  isConnected ? 'Internet Connected' : 'No Internet Connection',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: isConnected ? Colors.green : Colors.red,
-                  ),
-                ),
-                Text(
-                  _getConnectionTypeText(),
-                  style: TextStyle(
-                    fontSize: 12,
-                    color: isConnected ? Colors.green.shade800 : Colors.red.shade800,
-                  ),
-                ),
-              ],
+          const SizedBox(width: 12),          Expanded(
+            child: Text(
+              isConnected 
+                ? 'Internet Connected via ${_getConnectionTypeText().split(' via ').last}'
+                : 'No Internet Connection',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: isConnected ? Colors.green : Colors.red,
+              ),
             ),
           ),
           Container(

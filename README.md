@@ -13,6 +13,7 @@ A lightweight Android application for support engineers to collect network logs 
   - Ping tests to verify connectivity
 - **Real-time Output**: View test results in a console-like interface
 - **Copy Results**: Copy all collected logs to clipboard with a single tap
+- **Share Results**: Share logs directly from the app via email or messaging apps
 - **Configurable**: Choose which DNS servers to use for lookups
 
 ## Purpose

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
+import 'package:share_plus/share_plus.dart';
 import '../services/network_service.dart';
 import '../widgets/connectivity_status.dart';
 import '../widgets/console_output.dart';
@@ -211,6 +212,23 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
+  // Add method to share logs
+  void _shareLogs() async {
+    if (_consoleOutput.isNotEmpty) {
+      // Format the logs with a timestamp
+      final now = DateTime.now();
+      final formatter = DateFormat('yyyy-MM-dd_HH-mm-ss');
+      final timestamp = formatter.format(now);
+      final logContent = _consoleOutput;
+      
+      // Share the logs
+      await Share.share(
+        logContent,
+        subject: 'Network Logs Capture - $timestamp',
+      );
+    }
+  }
+
   // Append text to console output
   void _appendToConsole(String text) {
     if (mounted) {
@@ -267,15 +285,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    if (_publicIPs['ipv4'] != null)
+                  children: [                    if (_publicIPs['ipv4'] != null)
                       Text(
-                        'Public IPv4: ${_publicIPs['ipv4']}',
+                        'IPv4: ${_publicIPs['ipv4']}',
                         style: const TextStyle(fontFamily: 'monospace', fontSize: 12),
                       ),
                     if (_publicIPs['ipv6'] != null)
                       Text(
-                        'Public IPv6: ${_publicIPs['ipv6']}',
+                        'IPv6: ${_publicIPs['ipv6']}',
                         style: const TextStyle(fontFamily: 'monospace', fontSize: 12),
                       ),
                   ],
@@ -380,24 +397,34 @@ class _HomeScreenState extends State<HomeScreen> {
             
             const SizedBox(height: 8),
             
-            // Second row: Copy and Clear buttons
+            // Second row: Copy, Share and Clear buttons
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton.icon(
                   onPressed: _hasOutput && !_isCapturing ? _copyToClipboard : null,
                   icon: const Icon(Icons.copy),
-                  label: const Text('Copy Logs'),
+                  label: const Text('Copy Logs', style: TextStyle(fontSize: 12)),
                   style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                   ),
                 ),
-                const SizedBox(width: 16),
+                const SizedBox(width: 8),
+                ElevatedButton.icon(
+                  onPressed: _hasOutput && !_isCapturing ? _shareLogs : null,
+                  icon: const Icon(Icons.share),
+                  label: const Text('Share Logs', style: TextStyle(fontSize: 12)),
+                  style: ElevatedButton.styleFrom(
+                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  ),
+                ),
+                const SizedBox(width: 8),
                 ElevatedButton.icon(
                   onPressed: _hasOutput && !_isCapturing ? _clearConsole : null,
                   icon: const Icon(Icons.clear_all),
-                  label: const Text('Clear Logs'),                  style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  label: const Text('Clear Logs', style: TextStyle(fontSize: 12)),
+                  style: ElevatedButton.styleFrom(
+                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                   ),
                 ),
               ],
